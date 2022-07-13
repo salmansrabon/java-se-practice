@@ -8,7 +8,7 @@ public class sum_of_user_input {
         int sum=0;
         char charInput;
         int input;
-        do{
+        while(true){
             try{
                 System.out.println("Input a number for summation (press q for quit)");
                 input=scanner.nextInt();
@@ -22,6 +22,5 @@ public class sum_of_user_input {
                 }
             }
         }
-        while(true);
     }
 }
