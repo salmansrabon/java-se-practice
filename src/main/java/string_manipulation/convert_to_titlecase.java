@@ -1,7 +1,8 @@
 package string_manipulation;
 
-//1. Write a program to convert each 1st char to uppercase from a string
+//8. Write a program to convert each 1st char to uppercase from a string
 public class convert_to_titlecase {
+    static String s;
     public static void main(String[] args) {
         String str="rahim lives in sylhet";
         String[] words=str.split(" ");
@@ -10,5 +11,6 @@ public class convert_to_titlecase {
             String othersLetter=words[i].substring(1);
             System.out.println(firstLetter+othersLetter);
         }
+
     }
 }
