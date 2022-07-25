@@ -23,4 +23,3 @@ public class factorial {
         }
     }
 }
-//test 1
